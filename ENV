@@ -1,0 +1,12 @@
+# Informações
+
+APP_NAME = 
+APP_PORT = 3301
+APP_ENVIRONMENT = development
+
+# Configuração de Banco de Dados
+DB_HOST = 
+DB_PASS = 
+DB_USER = 
+DB_PORT = 
+DB_NAME = 
