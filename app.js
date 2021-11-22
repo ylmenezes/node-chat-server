@@ -14,6 +14,10 @@ const ChatModel = require('./models/ChatModel');
 const port = process.env.APP_PORT;
 app.use( cors() );
 
+app.get('/', (req, res) => {
+     res.send(process.env.APP_NAME+ 'running...');
+})
+
 io.on('connection', socket => {
 
     socket.on('disconnect', d => {
