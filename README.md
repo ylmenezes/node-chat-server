@@ -1,2 +1,2 @@
-# dna-chat-server
+# Chat Server NodeJS
 Service chat serve ( NodeJS ) 
